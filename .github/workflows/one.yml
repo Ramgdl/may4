@@ -7,7 +7,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Get code
+      - name: Get codse
         uses: actions/checkout@v3
       - name: Install NodeJS
         uses: actions/setup-node@v3
